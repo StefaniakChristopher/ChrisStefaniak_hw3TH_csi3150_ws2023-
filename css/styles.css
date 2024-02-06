@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;700;900&display=swap");
+
+* {
+  /* reset the browser default css styles in the next 3 lines */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* choose your font-family */
+  font-family: "Poppins", "Courier New", Courier, monospace;
+  /* setup color variables for css */
+  --bg-primary: #2d3047; /* invoke --> var(--bg-primary)*/
+  --bg-secondary: #9eb3c2;
+  --font-color-primary: #f09d51;
+  --font-color-secondary: #b75d69;
+  --backup-color: #fec196;
+}
+
+body {
+  height: 100vh;
+  background: var(--bg-primary);
+}
+
+/* header styling */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  padding: 0 30px;
+}
+
+header ul {
+  display: flex;
+}
+
+header ul li {
+  list-style: none;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: var(--font-color-primary);
+  margin-right: 20px;
+  transition: color 0.3s ease;
+  font-size: 16px;
+}
+
+header ul li a:hover {
+  color: var(--font-color-secondary);
+}
+
+header ul li:last-child a {
+  margin-right: 0px;
+}
+
+.hire-btn {
+  background: var(--backup-color);
+  color: var(--font-color-secondary);
+  border: none;
+  border-radius: 20px;
+  padding: 5px 30px;
+  transition: background 0.3s ease;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.hire-btn:hover {
+  background: var(--font-color-primary);
+}
+
+header h3 {
+  color: var(--backup-color);
+}
+
+/* hero section styling */
+
+main {
+  height: 640px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 28px;
+}
+
+main h2 {
+  font-size: 20px;
+  color: var(--font-color-secondary);
+}
+
+main h2 span {
+  text-decoration: underline;
+  color: var(--backup-color);
+}
+
+main h1 {
+  font-size: 35px;
+  color: var(--font-color-secondary);
+}
+
+main img {
+  margin-top: 10px;
+  border-radius: 50%;
+}
+
+main blockquote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+main blockquote p {
+  color: var(--font-color-primary);
+}
+
+main blockquote cite {
+  color: var(--backup-color);
+}
+
+/* styling of about me section */
+
+.about-me img {
+  width: 300px;
+}

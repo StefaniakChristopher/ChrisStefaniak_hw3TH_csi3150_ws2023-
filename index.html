@@ -4,23 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="./assets/img/favico.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/styles.css" />
     <title>Portfolio</title>
   </head>
   <body>
     <header>
-      <h2>I am Chris Stefaniak and this is</h2>
-      <h1>My Portfolio Website</h1>
+      <h3>Chris Stefaniak</h3>
+      <nav>
+        <ul>
+          <li><a href="./html/my_resume.html">Resume</a></li>
+          <li><a href="./html/my_fun_facts.html">Fun Facts</a></li>
+          <li><a href="./index.html">Home</a></li>
+        </ul>
+      </nav>
+      <button class="hire-btn">HIRE ME</button>
     </header>
-    <nav>
-      <ul>
-        <li><a href="./html/my_resume.html">Resume</a></li>
-        <li><a href="./html/my_fun_facts.html">Fun Facts</a></li>
-        <li><a href="./index.html">Home</a></li>
-      </ul>
-    </nav>
+    <!-- hero section-->
     <main>
+      <h2>I am <span>Chris Stefaniak</span> and this is</h2>
+      <h1>My Portfolio Website</h1>
       <section>
-        <img src="./assets/img/me.jpg" alt="Picture of Chirs Stefaniak" />
+        <img src="./assets/img/me.jpg" alt="Picture of Chris Stefaniak" />
       </section>
       <blockquote>
         <p>
@@ -29,22 +33,31 @@
         </p>
         <cite>Winston Churchill</cite>
       </blockquote>
-      <section>
-        <p>
-          My name is Chris Stefaniak and I am an aspiring software developer. I
-          currently work as a produce clerk at Meijer. Of my notable previous
-          occupations, I used to work at Open Dealer Exchange as an Operations
-          Analyst Intern. In the future, I would like to pursue a career in full
-          stack development. To learn more about me, be sure to check out my
-          <a href="./html/my_resume.html">resume</a> and
-          <a href="./html/my_fun_facts.html">fun facts</a> pages.
-        </p>
-      </section>
-      <section>
-        <h4>Progress to Degree</h4>
-        <progress value="127" max="128"></progress>
-      </section>
     </main>
+    <!--end of hero section-->
+    <!-- start of about me section-->
+    <section class="about-me">
+      <img
+        src="./assets/img/elephant.jpg"
+        alt="Picture of an African Elephant"
+      />
+      <p>
+        My name is Chris Stefaniak and I am an aspiring software developer. I
+        currently work as a produce clerk at Meijer. Of my notable previous
+        occupations, I used to work at Open Dealer Exchange as an Operations
+        Analyst Intern. In the future, I would like to pursue a career in full
+        stack development. To learn more about me, be sure to check out my
+        <a href="./html/my_resume.html">resume</a> and
+        <a href="./html/my_fun_facts.html">fun facts</a> pages.
+      </p>
+    </section>
+    <!--end of about me section-->
+    <!--Start of degree progress section-->
+    <section>
+      <h4>Progress to Degree</h4>
+      <progress value="127" max="128"></progress>
+    </section>
+    <!-- end of degree progress section-->
 
     <hr />
     <footer>

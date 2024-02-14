@@ -7,8 +7,213 @@
   box-sizing: border-box;
   /* choose your font-family */
   font-family: "Poppins", "Courier New", Courier, monospace;
-
+  --font-color-primary: #d9b10f;
+  --font-color-secondary: #eee8e8;
 }
-
+body {
+  margin: 0;
+}
 /* hero section */
 
+header {
+  height: 1000px;
+  background-image: url("../assets/img/pexels-felix-rottmann-11400712.jpg");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header img{
+  width: 200px;
+}
+
+header h1 {
+  font-size: 96px;
+  color: var(--font-color-primary);
+  font-weight: 400;
+}
+
+header h4 {
+  color: var(--font-color-secondary);
+}
+
+header i {
+  color: var(--font-color-primary);
+  font-size: 96px;
+}
+
+/* trip to alaska on your list? */
+.on-your-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 700px;
+  background-image: url("../assets/img/pexels-kien-virak-10597265.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.on-your-list div:first-child {
+  padding: 40px;
+  margin-left: 40px;
+  width: 50%;
+}
+
+.on-your-list h2 {
+  color: var(--font-color-primary);
+  font-size: 90px;
+}
+
+.on-your-list div:last-child {
+  margin: 0px 400px;
+  width: 50%;
+}
+
+.on-your-list p {
+  color: var(--font-color-secondary);
+  margin-bottom: 30px;
+}
+
+.on-your-list button {
+  background: var(--font-color-primary);
+  width: 125px;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+/* expierence kenai fjords and denali park */
+
+.kenai-fjords-and-denali {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 1100px;
+  background-image: url("../assets/img/pexels-skitterphoto-792.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.kenai-fjords-and-denali h3 {
+  font-size: 50px;
+  color: var(--font-color-primary);
+  font-weight: 700;
+  margin: 0px 600px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.kenai-fjords-and-denali div  {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.kenai-fjords-and-denali .kenai-first-image {
+  height: 600px;
+  width: 400px;
+  margin: 0 25px;
+  border-radius: 3px;
+  background-image: url("../assets/img/pexels-badr-khechchab-4562477.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.kenai-fjords-and-denali .kenai-second-image {
+  height: 600px;
+  width: 400px;
+  margin: 0 25px;
+  border-radius: 3px;
+  background-image: url("../assets/img/pexels-barry-tan-5389771.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.kenai-fjords-and-denali .kenai-third-image {
+  height: 600px;
+  width: 400px;
+  margin: 0 25px;
+  border-radius: 3px;
+  background-image: url("../assets/img/pexels-james-wheeler-1598073.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.kenai-fjords-and-denali div div div i {
+  color: var(--font-color-primary);
+  font-size: 96px;
+}
+
+.kenai-fjords-and-denali div div div h6 {
+  color: var(--font-color-secondary);
+  font-size: 24px;
+}
+
+.kenai-fjords-and-denali div div div {
+  margin-top: 110%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 20px;
+}
+
+.kenai-fjords-and-denali button {
+  margin-top: 30px;
+  background: var(--font-color-primary);
+  color: var(--font-color-secondary);
+  width: 125px;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+/*  bears trains and icebergs  */
+
+.bears-trains-and-icebergs {
+  display: flex;
+  justify-content: space-between;
+  height: 900px;
+  background-image: url("../assets/img/pexels-sara-loeffler-4027720.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.bears-trains-and-icebergs div:first-child {
+  padding: 40px;
+  margin-left: 40px;
+  width: 50%;
+  margin-top: 60px;
+  
+}
+
+.bears-trains-and-icebergs h2 {
+  color: var(--font-color-primary);
+  font-size: 90px;
+  font-weight: 400;
+}
+
+.bears-trains-and-icebergs div:last-child {
+  margin-top: 100px;
+  padding: 0px 100px;
+  width: 50%;
+}
+
+.bears-trains-and-icebergs h6 {
+  color: var(--font-color-secondary);
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+
+.bears-trains-and-icebergs p {
+  color: var(--font-color-secondary);
+  margin-bottom: 30px;
+}
+
+/*  */

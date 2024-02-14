@@ -163,7 +163,7 @@ header i {
 }
 
 .kenai-fjords-and-denali button {
-  margin-top: 30px;
+  margin-top: 60px;
   background: var(--font-color-primary);
   color: var(--font-color-secondary);
   width: 125px;
@@ -216,4 +216,147 @@ header i {
   margin-bottom: 30px;
 }
 
-/*  */
+/* metrics */
+
+.metrics {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 600px;
+  background-image: url("../assets/img/pexels-pixabay-268455.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.metrics div {
+  background: black;
+  width: 200px;
+  height:200px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.metrics div h2{
+  margin-top: 40px;
+  color: var(--font-color-primary);
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.metrics div p {
+  margin-top: 10px;
+  color: var(--font-color-secondary);
+}
+
+/* anecdotal */
+
+.anecdotal {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 700px;
+  background-image: url("../assets/img/pexels-pixabay-41004.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.anecdotal img {
+  width:200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.anecdotal p {
+  color: var(--font-color-secondary);
+  padding: 0px 500px;
+  text-align: center;
+  margin-top: 40px;
+
+}
+
+.anecdotal h6 {
+  color: var(--font-color-secondary);
+  font-size: 24px;
+  margin-top: 30px;
+  font-weight: 400;
+}
+
+.anecdotal i {
+  color: var(--font-color-primary);
+  font-size: 120px;
+}
+
+/* picture gallery */
+
+.picture-gallery {
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.picture-gallery div:nth-child(1) {
+  width: 25%;
+  height:100%;
+  background-image: url("../assets/img/pexels-vlad-bagacian-1368382.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.picture-gallery div:nth-child(2) {
+  width: 25%;
+  height:100%;
+  background-image: url("../assets/img/pexels-barry-tan-5389947.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.picture-gallery div:nth-child(3) {
+  width: 25%;
+  height:100%;
+  background-image: url("../assets/img/pexels-andrei-tanase-1271620.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.picture-gallery div:nth-child(4) {
+  width: 25%;
+  height:100%;
+  background-image: url("../assets/img/pexels-julie-aagaard-1374064.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.picture-gallery {
+  color: var(--font-color-primary);
+  font-size: 85px;
+}
+
+/* contact us */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 700px;
+  background-image: url("../assets/img/pexels-matthew-mcelwaine-178837.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+footer h1 {
+  color: var(--font-color-primary);
+  font-size: 96px;
+  font-weight: 400;
+}
+
+footer div:first-child {
+  width: 50%;
+
+}

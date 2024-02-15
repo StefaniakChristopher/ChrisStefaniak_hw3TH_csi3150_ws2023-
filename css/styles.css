@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;900&display=swap");
 
 * {
   /* reset the browser default css styles in the next 3 lines */
@@ -16,7 +16,7 @@ body {
 /* hero section */
 
 header {
-  height: 1000px;
+  height: 1400px;
   background-image: url("../assets/img/pexels-felix-rottmann-11400712.jpg");
   background-size: cover;
   background-position: center;
@@ -27,22 +27,24 @@ header {
 }
 
 header img{
-  width: 200px;
+  width: 300px;
 }
 
 header h1 {
-  font-size: 96px;
+  font-size: 200px;
   color: var(--font-color-primary);
   font-weight: 400;
 }
 
 header h4 {
+  font-size: 35px;
   color: var(--font-color-secondary);
+  font-weight: 400;
 }
 
 header i {
   color: var(--font-color-primary);
-  font-size: 96px;
+  font-size: 200px;
 }
 
 /* trip to alaska on your list? */
@@ -84,6 +86,7 @@ header i {
   border: none;
   border-radius: 2px;
   cursor: pointer;
+  font-size: 16px;
 }
 
 /* expierence kenai fjords and denali park */
@@ -102,7 +105,7 @@ header i {
 .kenai-fjords-and-denali h3 {
   font-size: 50px;
   color: var(--font-color-primary);
-  font-weight: 700;
+  font-weight: 500;
   margin: 0px 600px;
   margin-bottom: 50px;
   text-align: center;
@@ -152,6 +155,7 @@ header i {
 .kenai-fjords-and-denali div div div h6 {
   color: var(--font-color-secondary);
   font-size: 24px;
+  font-weight: 500;
 }
 
 .kenai-fjords-and-denali div div div {
@@ -171,6 +175,7 @@ header i {
   border: none;
   border-radius: 2px;
   cursor: pointer;
+  font-size: 16px;
 }
 
 /*  bears trains and icebergs  */
@@ -208,6 +213,7 @@ header i {
   color: var(--font-color-secondary);
   font-size: 24px;
   margin-bottom: 20px;
+  font-weight: 500;
 }
 
 
@@ -358,5 +364,57 @@ footer h1 {
 
 footer div:first-child {
   width: 50%;
+  padding:100px;
+}
 
+footer div:first-child p {
+  color: var(--font-color-secondary);
+}
+
+footer div:first-child i {
+  margin-top: 35px;
+  font-size: 35px;
+  color: var(--font-color-primary);
+  margin-right: 5px;
+}
+
+
+
+footer div:nth-child(2) {
+  width: 50%;
+  display: flex;
+  margin-top: 160px;
+  flex-direction: column;
+  align-items: start;
+  margin-bottom: 5px;
+}
+
+footer input, footer textarea {
+  margin-bottom: 12px;
+  width: 600px;
+  padding: 10px;
+  background:transparent;
+  border-color: var(--font-color-secondary);
+  border-style: solid;
+  border-radius: 3px;
+  border-width: 2px;
+}
+
+footer input:focus, footer textarea:focus {
+  outline: 2px solid var(--font-color-secondary);
+}
+
+footer input::placeholder, footer textarea::placeholder {
+  color: var(--font-color-secondary);
+  opacity: 80%;
+}
+
+footer button {
+  background: var(--font-color-primary);
+  width: 125px;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 16px;
 }
